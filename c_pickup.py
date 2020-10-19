@@ -12,7 +12,7 @@ with open(path,encoding='utf-8') as f:
     csv_c=len(all_csv[0])
     print(csv_c,csv_r)
 #軸力表摘出
-    #start_row================
+    #start_row======================
     target1="name=基礎設計用軸力表"
     hit1= [i for i in all_csv if target1 in i]
     row_fs=all_csv.index(hit1[0])
